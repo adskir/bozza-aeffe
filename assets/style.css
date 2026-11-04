@@ -24,6 +24,12 @@ img,svg{display:block}
 .skip{position:fixed;left:16px;top:-60px;z-index:100;background:var(--accent);color:#000;padding:10px 16px;font-weight:700}
 .skip:focus{top:16px}
 
+/* ---------- bozza ---------- */
+.draft-bar{position:fixed;top:0;left:0;right:0;z-index:52;height:32px;line-height:32px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;background:var(--accent);color:#000;font-size:13px;font-weight:600;padding:0 16px;text-align:center}
+.draft-bar a{color:#000}
+.hdr{top:32px!important}
+body{padding-top:32px}
+
 /* ---------- header ---------- */
 .hdr{position:fixed;inset:0 0 auto;z-index:50;height:84px;padding:0 var(--pad);display:flex;align-items:center;justify-content:space-between;mix-blend-mode:difference;color:#fff;pointer-events:none}
 .hdr a,.hdr button{pointer-events:auto}
